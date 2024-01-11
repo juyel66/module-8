@@ -35,3 +35,44 @@
     }
     
 }
+
+/* medium device responsive */
+@media screen and (mim-width: 576px) and (max-width:992px) {
+    
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+
+
+
+
+/* grid.html */
+
+
+
+
+
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+    grid-template-rows: repeat(3, 200px) 50px 50px;
+
+    
+
+}
+.box{
+    background-color: aqua;
+    
+}
+#box-1{
+    grid-row: span 5;
+}
+#box-11, #box-12{
+    grid-column: span 3;
+}
