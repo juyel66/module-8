@@ -25,7 +25,7 @@
 }
 
 /* responsive media query */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 412px) {
     .row{
         flex-direction: column;
     } 
