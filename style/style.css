@@ -25,9 +25,13 @@
 }
 
 /* responsive media query */
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 576px) {
     .row{
         flex-direction: column;
+        height: auto;
     } 
+    .same-image{
+        grid-template-columns: 1fr;
+    }
     
 }
